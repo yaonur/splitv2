@@ -83,7 +83,7 @@ void Keys::process_keydown()
 			isPressed = Primary;
 			return;
 		}
-		else
+		else if(IsShift)
 		{
 			is_shift_pressed = Secondary;
 		}

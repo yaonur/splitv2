@@ -47,7 +47,8 @@ Keys slave_r3c4(',', '*');		  // c and#
 Keys slave_r3c5('m', '+');		  // v and $
 Keys slave_r3c6('n', '-');		  // b and ^
 
-Keys slave_r4c3(KEY_RIGHT_ALT);	  // right alt
+
+Keys slave_r4c3(KEY_PRINTSCREEN);	  // right alt
 Keys slave_r4c4(KEY_RETURN);	  // return
 Keys slave_r4c5(0);				  // fn
-Keys slave_r4c6(KEY_PRINTSCREEN); // printscreen
+Keys slave_r4c6(KEY_RIGHT_ALT); // printscreen

@@ -21,9 +21,9 @@ Keys r3c4('c', '#');	 // c and#
 Keys r3c5('v', '$');	 // v and $
 Keys r3c6('b', '^');	 // b and ^
 
-Keys r4c3(KEY_CAPS_LOCK); // caps
-Keys r4c4(0);			  // fn
-Keys r4c5(KEY_SPACE);	  // space
+Keys r4c3(129); // caps
+Keys r4c4(KEY_SPACE);	  // space
+Keys r4c5(0);			  // fn
 Keys r4c6(KEY_RIGHT_ALT); // right alT
 
 Keys slave_r1c1('[', KEY_BACKSPACE, KEY_F11); // [ backspace f11
@@ -48,6 +48,6 @@ Keys slave_r3c5('m', '+');		  // v and $
 Keys slave_r3c6('n', '-');		  // b and ^
 
 Keys slave_r4c3(KEY_RIGHT_ALT);	  // right alt
-Keys slave_r4c4(0);				  // fn
-Keys slave_r4c5(KEY_RETURN);	  // return
+Keys slave_r4c4(KEY_RETURN);	  // return
+Keys slave_r4c5(0);				  // fn
 Keys slave_r4c6(KEY_PRINTSCREEN); // printscreen

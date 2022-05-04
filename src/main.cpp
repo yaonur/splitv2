@@ -182,5 +182,4 @@ void loop()
   // swrite();
   // swrite();
   // sread();
-  delay(2);
 }

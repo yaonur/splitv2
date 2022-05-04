@@ -121,11 +121,11 @@ void process_serial()
   }
     if (key_num == 20 || key_num == 148)
   {
-    slave_r4c4.process_slave(key_num);
+    slave_r4c4.process_fn_slave(key_num);
   }
   if (key_num == 21 || key_num == 149)
   {
-    slave_r4c5.process_fn_slave(key_num);
+    slave_r4c5.process_slave(key_num);
   }
   if (key_num == 22 || key_num == 150)
   {

@@ -33,7 +33,7 @@ Keys slave_r1c4('i', '8', KEY_F8);			  // f8
 Keys slave_r1c5('u', '7', KEY_F9);			  // f9
 Keys slave_r1c6('y', '6', KEY_F10);			  // f10
 
-Keys slave_r2c1('\'', '_', 0, KEY_RIGHT_CTRL);							// esc and ~
+Keys slave_r2c1('\'', '_', 0);							// esc and ~
 Keys slave_r2c2(';', KEY_BACKSPACE, KEY_DELETE ); // a and
 Keys slave_r2c3('l', KEY_RIGHT_ARROW, KEY_END);							// s and |
 Keys slave_r2c4('k', KEY_UP_ARROW, KEY_PAGE_UP);						// d and (
@@ -51,3 +51,4 @@ Keys slave_r4c3(KEY_PRINTSCREEN); // right alt
 Keys slave_r4c4('`');				  // fn
 Keys slave_r4c5(KEY_RETURN,'-',0,KEY_RIGHT_SHIFT);  // return
 Keys slave_r4c6(KEY_TAB,'-',0);	 
+

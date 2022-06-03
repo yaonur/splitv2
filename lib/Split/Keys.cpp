@@ -3,6 +3,7 @@
 #include "Definitions.h"
 const uint8_t DOUBLE_KEY_SCREEN_TIME = 130;
 bool alt_one_status = false;
+bool alt_one_pressed_with = false;
 bool alt_two_status = false;
 uint8_t is_shift_pressed = 0;
 
@@ -63,6 +64,7 @@ void Keys::process_keydown()
 	{
 		isPressed = Alt1;
 		Keyboard.press(Alt1);
+		alt_one_pressed_with = true;
 	}
 	else if (alt_two_status && !Alt2 == 0)
 	{
@@ -130,21 +132,22 @@ void Keys::process_fn_master(int pin_num)
 	}
 	else if (digitalRead(pin_num) == HIGH && isPressed)
 	{
-		if (millis() - timer < DOUBLE_KEY_SCREEN_TIME)
+		if (millis() - timer < DOUBLE_KEY_SCREEN_TIME && alt_one_pressed_with == false)
+
 		{
 			Keyboard.write(Primary);
 		}
-	alt_one_status = false;
-	isPressed = 0;
+		alt_one_status = false;
+		alt_one_pressed_with = false;
+		isPressed = 0;
 	}
 }
-
 
 void Keys::process_fn_slave(int key_num)
 {
 	if (key_num < 128 && isPressed == 0)
 	{
-				timer = millis();
+		timer = millis();
 		alt_two_status = true;
 		isPressed = 1;
 	}

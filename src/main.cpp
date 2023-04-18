@@ -32,7 +32,6 @@ void setup()
   Serial1.begin(9600);
   Keyboard.begin();
   debugln("setup comlete");
-  // delay(4000);
 }
 void process_serial()
 {

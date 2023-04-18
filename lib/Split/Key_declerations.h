@@ -40,7 +40,7 @@ Keys slave_r2c4('k', KEY_UP_ARROW, KEY_PAGE_UP);						// d and (
 Keys slave_r2c5('j', KEY_DOWN_ARROW, KEY_PAGE_DOWN);					// 214);			 // f and )
 Keys slave_r2c6('h', KEY_LEFT_ARROW, KEY_HOME);							// g and &
 
-Keys slave_r3c1(']', KEY_DELETE); // key left gui
+Keys slave_r3c1(']', KEY_DELETE,KEY_RETURN); // key left gui
 Keys slave_r3c2('/', '=');		  // z and !
 Keys slave_r3c3('.', '%');		  // x and @
 Keys slave_r3c4(',', '*');		  // c and#

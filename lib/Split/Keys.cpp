@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Keyboard.h>
 #include "Definitions.h"
-const uint8_t DOUBLE_KEY_SCREEN_TIME = 130;
+const uint8_t DOUBLE_KEY_SCREEN_TIME = 160;
 bool alt_one_status = false;
 bool alt_one_pressed_with = false;
 bool alt_two_status = false;

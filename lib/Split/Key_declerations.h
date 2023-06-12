@@ -27,11 +27,11 @@ Keys r4c5(KEY_SPACE);	// space,'^');			  // fnJKh
 Keys r4c6(KEY_TAB,0,0,KEY_LEFT_SHIFT);	//0,0); // right alT
 
 Keys slave_r1c1('[', KEY_BACKSPACE, KEY_F11); // [ backspace f11
-Keys slave_r1c2('p', '0', KEY_F6);			  // f6
-Keys slave_r1c3('o', '9', KEY_F7);			  // f7
+Keys slave_r1c2('p', '0', KEY_F10);			  // f6
+Keys slave_r1c3('o', '9', KEY_F9);			  // f7
 Keys slave_r1c4('i', '8', KEY_F8);			  // f8
-Keys slave_r1c5('u', '7', KEY_F9);			  // f9
-Keys slave_r1c6('y', '6', KEY_F10);			  // f10
+Keys slave_r1c5('u', '7', KEY_F7);			  // f9
+Keys slave_r1c6('y', '6', KEY_F6);			  // f10
 
 Keys slave_r2c1('\'', '_', 0);							// esc and ~
 Keys slave_r2c2(';', KEY_BACKSPACE, KEY_DELETE ); // a and
@@ -40,7 +40,7 @@ Keys slave_r2c4('k', KEY_UP_ARROW, KEY_PAGE_UP);						// d and (
 Keys slave_r2c5('j', KEY_DOWN_ARROW, KEY_PAGE_DOWN);					// 214);			 // f and )
 Keys slave_r2c6('h', KEY_LEFT_ARROW, KEY_HOME);							// g and &
 
-Keys slave_r3c1(']', KEY_DELETE,KEY_RETURN); // key left gui
+Keys slave_r3c1(KEY_RETURN, KEY_DELETE,']'); // key left gui
 Keys slave_r3c2('/', '=');		  // z and !
 Keys slave_r3c3('.', '%');		  // x and @
 Keys slave_r3c4(',', '*');		  // c and#

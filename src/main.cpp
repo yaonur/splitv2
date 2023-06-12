@@ -177,7 +177,9 @@ void loop()
   r4c5.process_fn_master(c5);
   r4c6.process_master(c6);
   digitalWrite(r4, HIGH);
-  delay(5);
+  delay(10);
+  
+  
 
   // swrite();
   // swrite();

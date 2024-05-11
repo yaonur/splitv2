@@ -23,7 +23,7 @@ Keys r3c6('b', '^');	 // b and ^`'
 
 Keys r4c3(KEY_CAPS_LOCK,0,0); // caps
 Keys r4c4(KEY_DELETE,0,0,KEY_RIGHT_ALT);	  // spaceJK
-Keys r4c5(KEY_SPACE);	// space,'^');			  // fnJKh
+Keys r4c5(KEY_SPACE);	// space,'^');			  // fn key
 Keys r4c6(KEY_TAB,0,0,KEY_LEFT_SHIFT);	//0,0); // right alT
 
 Keys slave_r1c1('[', KEY_BACKSPACE, KEY_F11); // [ backspace f11
@@ -48,7 +48,7 @@ Keys slave_r3c5('m', '+');		  // v and $
 Keys slave_r3c6('n', '-');		  // b and ^
 
 Keys slave_r4c3(KEY_PRINTSCREEN); // right alt
-Keys slave_r4c4('`');				  // fn
-Keys slave_r4c5(KEY_RETURN,'-',0,KEY_RIGHT_SHIFT);  // return
+Keys slave_r4c4('`');				  // fn key
+Keys slave_r4c5(KEY_RETURN,'~',0,KEY_RIGHT_SHIFT);  // return
 Keys slave_r4c6(KEY_TAB,'-',0);	 
 
